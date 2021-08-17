@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons/log.png" type="image/x-icon">
     <title>Penguin Ecomerce</title>
     <!-- tailwind css link here -->
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
@@ -14,19 +15,11 @@
     <header class="bg-yellow-100">
         <section class="container md:flex items-center justify-around py-12 px-4">
             <div>
-                <h1 class="text-7xl font-bold uppercase">BE THE PENGUIN <br>
+                <h1 class="text-7xl font-bold uppercase" id="header-title" >BE THE PENGUIN <br>
                     OF WINTER</h1>
                 <p class="w-2/3 mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, distinctio.</p>
-                <button
-                    class="text-white uppercase px-7 py-4 bg-green-500 rounded-xl font-medium bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 mt-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                    </svg>
-                    Buy Now</button>
-
-                </button>
+                <button id="header-button"
+                class="bg-yellow-600 px-4 rounded py-2 text-white  font-medium mt-8 text-2xl">Buy Now</button>
             </div>
             <div>
                 <img src="images/model.png" alt="">
@@ -40,6 +33,7 @@
     <footer>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
